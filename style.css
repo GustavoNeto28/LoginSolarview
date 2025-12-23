@@ -56,7 +56,7 @@
       .social-media{
         border: 2px solid white;
         border-radius: 90px;
-        padding: 5px;
+        padding: 6px;
         display: flex;
       }
 
@@ -143,6 +143,7 @@
         border-radius: 5px;
         border: 1px solid grey;
         padding: 12px; 
+        font-size: 17px;
       }
 
       .input-content-1{
@@ -150,8 +151,23 @@
       }
 
       .check-pwd{
+        display: flex;
+        align-items: center;
+        gap: 32px;
         margin-top: 30px;
         font-size: 15px;
+      }
+
+      .main-cb{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .main-cb-2{
+        display: flex;
+        align-items: center;
+        gap: 7px;
       }
 
       .check-pwd a{
@@ -205,10 +221,26 @@
 
       .login-btn button:hover{
         cursor: pointer;
+        background-color: #002dcc;
+        transition: .15s;
       }
 
       .create-acnt-btn button:hover{
         cursor: pointer;
+        background-color: #babbbd;
+        border: 1px solid #babbbd;
+        color: #fff;
+        transition: .15s;
+      } 
+
+      .check-pwd input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+      }
+
+      .captcha-input-label input[type="checkbox"]{
+        width: 30px;
+        height: 30px;
       }
 
 
